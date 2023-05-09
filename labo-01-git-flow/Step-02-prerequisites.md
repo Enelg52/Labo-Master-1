@@ -13,26 +13,26 @@ Pour Linux, [here is the procedure.](https://howtoinstall.co/en/git-flow)
 
 ```
 [INPUT]
-//TODO
-
-[OUTPUT]
-//TODO
+winget install git.git
 ```
 
 * [ ] Confirm the installed version
 
 ```
 [INPUT]
-//TODO
+git flow version
 
 [OUTPUT]
-//TODO
+1.12.3 (AVH Edition)
 ```
 
 * [ ] What do you think about this release?
 
 ```
-//TODO
+Ajout de l'option --noedit. 
+
+Il s'agit d'une pull request de luiscoms
+https://github.com/petervanderdoes/gitflow-avh/pull/338
 ```
 
 ## What's git-flow, branches feature.
@@ -44,13 +44,15 @@ Pour Linux, [here is the procedure.](https://howtoinstall.co/en/git-flow)
 * [ ] Which branches are persistent and what do they contain?
 
 ```
-//TODO
+La branch main/master et develop.
+Develop -> branch stable
+Main -> Branch stable
 ```
 
 * [ ] Why do we have to merge hotfix in both master and develop branches, but not into all active feature branches?
 
 ```
-//TODO
+Un hotfix est par définition une correction en cours de route, donc il faut aussi corriger la branch stable. 
 ```
 
 ## Initialize git flow on an existing project
@@ -58,13 +60,13 @@ Pour Linux, [here is the procedure.](https://howtoinstall.co/en/git-flow)
 * [ ] What happens when you run the "git flow init" command on an existing local repository?
 
 ```
-//TODO
+Ça créer la branch develop et ça switch dessus. 
 ```
 
 * [ ] When do we need to make this git command?
 
 ```
-//TODO
+Juste après avoir pull un repo. 
 ```
 
 ## Practice the basic git commands
@@ -74,17 +76,17 @@ Pour Linux, [here is the procedure.](https://howtoinstall.co/en/git-flow)
 * [ ] What does this git command "git add -all" achieve (.gitignore impacts)?
 
 ```
-//TODO
+Ajouter tout les fichiers, sauf ceux spéfifié dans dans le .gitignore 
 ```
 
 * [ ] What does this git command "git status" achieve?
 
 ```
-//TODO
+Permets de voir l'état actuel de notre branch. 
 ```
 
 * [ ] What does this git command "git remote add upstream \<url>" achieve?
 
 ```
-//TODO
+Ajoute un autre remote. Permet de pull/push vers un autre repo que l'origin
 ```
