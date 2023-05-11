@@ -2,15 +2,13 @@
 
 * [ ] Get the installation script for your OS
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p>New Relic - Setup with Guided install</p></figcaption></figure>
-
 * [ ] Generate script to deploy the monitoring agent
-
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Get Install script to deploy the newrelic agent</p></figcaption></figure>
 
 * [ ] Get the command line to launch the agent's setup
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+  ![linux script](assets/linux script.png)
+
+![script install windows](assets/script install windows.png)
 
 * [ ] Run the script on your vm
 
@@ -50,6 +48,8 @@ Infra key: debian-projwebbdd
   New Relic installation complete
 ```
 
+![installed infra agent deb11](assets/installed infra agent deb11.png)
+
 * [ ] Install Golden Signal Alerts and the Agent
 
 ```bash
@@ -84,14 +84,16 @@ done
   ⮕  https://onenr.io/0qQabV116w1
 ```
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+![installed infra agent + golden signal deb11](assets/installed infra agent + golden signal deb11.png)
 
 * [ ] See your data (after the installation)
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+  ![debian show](assets/debian show.png)
 
 * [ ] Observe the Dashboard displaying your vm's
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>NewRelic's Dashboard</p></figcaption></figure>
+  ![All agents are up](assets/All agents are up.png)
 
 * [ ] Repeat this process for your Windows Vm.
+
+![windows agent up](assets/windows agent up.png)
