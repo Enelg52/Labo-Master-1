@@ -1,18 +1,18 @@
 # Setup New relic clients
 
-* [ ] Get the installation script for your OS
+* [x] Get the installation script for your OS
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p>New Relic - Setup with Guided install</p></figcaption></figure>
 
-* [ ] Generate script to deploy the monitoring agent
+* [x] Generate script to deploy the monitoring agent
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Get Install script to deploy the newrelic agent</p></figcaption></figure>
 
-* [ ] Get the command line to launch the agent's setup
+* [x] Get the command line to launch the agent's setup
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-* [ ] Run the script on your vm
+* [x] Run the script on your vm
 
 {% hint style="info" %}
 * Prefer to use the sudo command with your current user as the root account
@@ -50,7 +50,7 @@ Infra key: debian-projwebbdd
   New Relic installation complete
 ```
 
-* [ ] Install Golden Signal Alerts and the Agent
+* [x] Install Golden Signal Alerts and the Agent
 
 ```bash
 ==> Installing Golden Signal Alerts
@@ -86,12 +86,12 @@ done
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-* [ ] See your data (after the installation)
+* [x] See your data (after the installation)
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-* [ ] Observe the Dashboard displaying your vm's
+* [x] Observe the Dashboard displaying your vm's
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>NewRelic's Dashboard</p></figcaption></figure>
 
-* [ ] Repeat this process for your Windows Vm.
+* [x] Repeat this process for your Windows Vm.
