@@ -121,28 +121,7 @@ PS C:\Reposite\Labo-Master> git commit -m "feat:add basic terraform script"
 [feature/terraformBasicScript af82fc9] feat:add basic terraform script
  1 file changed, 23 insertions(+)
  create mode 100644 labo-01-git-flow/terra.tf
-PS C:\Reposite\Labo-Master> git flow feature finish terraformBasicScript
-Switched to branch 'develop'
-Your branch is up to date with 'origin/develop'.
-Updating 3192b2b..af82fc9
-Fast-forward
- labo-01-git-flow/terra.tf | 23 +++++++++++++++++++++++
- 1 file changed, 23 insertions(+)
- create mode 100644 labo-01-git-flow/terra.tf
-Deleted branch feature/terraformBasicScript (was af82fc9).
-
-Summary of actions:
-- The feature branch 'feature/terraformBasicScript' was merged into 'develop'
-- Feature branch 'feature/terraformBasicScript' has been locally deleted
-- You are now on branch 'develop'
-
-PS C:\Reposite\Labo-Master> git status
-On branch develop
-Your branch is ahead of 'origin/develop' by 1 commit.
-  (use "git push" to publish your local commits)
-
-nothing to commit, working tree clean
-PS C:\Reposite\Labo-Master>
+PS C:\Reposite\Labo-Master> 
 ```
 
 * [ ] Finish the feature
